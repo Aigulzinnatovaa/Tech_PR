@@ -1,0 +1,581 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>КФУ. Все для абитуриента</title>
+    <link rel="icon" href="favicon.ico" sizes="any"> <!-- 32x32 / 16x16 -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicons-apple.png"><!-- 180?180 -->
+
+    <link rel="stylesheet" href="js/fancybox4/fancybox.css">
+    <link rel="stylesheet" href="js/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="js/autosuggest/autosuggest.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/desctop.css" media="(min-width: 1024px)">
+
+    <meta name="description" content="Вся информация для будущих абитуриентов. Получение эффективной подготовки к ЕГЭ: дистанционное обучение, онлайн-тестирование. Участие в конкурсах, программах, олимпиадах, конференциях КФУ для школьников. Возможность лучше познакомится с КФУ.">
+</head>
+<body class="">
+    <!-- для главной к body добавить класс index -->
+    <!-- иконки -->
+    <!-- енд иконки -->
+    <!-- Header -->
+    <header>
+        <div class="container headMain">
+            <div class="logos">
+                <a href="/" title="КФУ. Все для абитуриента" class="logo">
+                    <img class="logo--desc" src="images/kfu_logo_2l_rus_1_white-min.svg" alt="Казанский федеральный университет" width="258">
+                    <img class="logo--mob" src="images/kfu_logo_3l-white_rus.svg" alt="Казанский федеральный университет" width="104" role="presentation">
+                </a>
+            </div>
+            <div class="headMain__item box-langSwitcher">
+                <button class="lang-switcher" aria-label="Переключить язык сайта" aria-haspopup="true" aria-expanded="false"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#ru"></use></svg></span><span>РУС</span><span class="dropdown-caret"></span></button>
+                <div class="listLang" hidden>
+                    <ul>
+                        <li class="listLang__item"><a class="listLang__link" href="#eng" target="_blank" title="English" lang="en"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#gb"></use></svg></span>ENG</a></li>
+                        <li class="listLang__item"><a class="listLang__link" href="#tat" target="_blank" title="Татар" lang="tt" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#tat"></use></svg></span>TAT</a></li>
+                        <li class="listLang__item"><a class="listLang__link" href="#es" target="_blank" title="Spanish" lang="es" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#es"></use></svg></span>ESP</a></li>
+                        <li class="listLang__item"><a class="listLang__link" href="#cn" target="_blank" title="China" lang="cn" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#cn"></use></svg></span>CHN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="headMain__item"><button class="changeTheme" aria-label="Версия для слабовидящих"><span class="icok"><svg><use xlink:href="images/sprite-icons.svg#eyes"></use></svg></span></button></div> -->
+            <div class="headMain__item">
+                <div class="phones">
+                    <p class="phones__item"><a href="tel:88002349275">8-800-234-92-75</a> (РФ)</p>
+                    <p class="phones__item"><a href="tel:+78432337027">+7 (843) 233-70-27</a> (для ин. граждан) </p>
+                </div>
+            </div>
+            <div class="headMain__item"><button class="openMenu"><div class="hamburger burger1"><div></div></div><span class="openMenu__txt">меню</span></button></div>
+
+        </div>
+
+    </header>
+    <!-- END header -->
+    <!-- start Main menu -->
+    <div class="offset-navmain" inert>
+        <div class="gridMenu">
+            <div class="gridMenu__item tools-box">
+                <div class="gridMenu__content">
+                    <div class="mobileData">
+                        <a id="signin" class="button btn-light-inverse btn-wide100" data-src="#login" href="#" data-fancybox="dialog"><span class="icok"><svg><use xlink:href="images/sprite-icons.svg#user"></use></svg></span>Личный кабинет</a>
+                        <div class="phones">
+                            <p class="phones__item"><a href="tel:88002349275">8-800-234-92-75</a> (РФ)</p>
+                            <p class="phones__item"><a href="tel:+78432337027">+7 (843) 233-70-27</a> (для ин. граждан) </p>
+                        </div>
+                    </div>
+                    <div class="tools">
+                        <a class="tools__item" href="/events/" aria-label="Календарь событий"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#calendar"></use></svg></span></a>
+                        <!-- <a class="tools__item" href="/search/" aria-label="Поиск"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#search"></use></svg></span></a> -->
+                        <div class="tools__item box-langSwitcher">
+                            <button class="lang-switcher" aria-label="Переключить язык сайта" aria-haspopup="true" aria-expanded="false"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#ru"></use></svg></span><span>РУС</span><span class="dropdown-caret"></span></button>
+                            <div class="listLang" hidden>
+                                <ul>
+                                    <li class="listLang__item"><a class="listLang__link" href="#eng" target="_blank" title="English" lang="en"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#gb"></use></svg></span>ENG</a></li>
+                                    <li class="listLang__item"><a class="listLang__link" href="#tat" target="_blank" title="Татар" lang="tt" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#tat"></use></svg></span>TAT</a></li>
+                                    <li class="listLang__item"><a class="listLang__link" href="#es" target="_blank" title="Spanish" lang="es" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#es"></use></svg></span>ESP</a></li>
+                                    <li class="listLang__item"><a class="listLang__link" href="#cn" target="_blank" title="China" lang="cn" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#cn"></use></svg></span>CHN</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="gridMenu__item mainMenu-box">
+                <div class="gridMenu__content">
+                    <nav class="mainMenu">
+                        <ul class="mainMenu__list">
+                            <!-- .selected для li и mainMenu__submenu для активного пункта меню -->
+                            <!-- .open для пункта и подменю - при кликах открыть\закрыть по умолчанию
+                            Если главная и все что НЕ описание программ, то .open для 1го пункта с подменю для >=768 (для мобилы удаляется скриптом)
+                            Если внутри программ, то .open везде убрать и поставить активному .selected -->
+                            <li class="mainMenu__item selected" data-item="sub1">
+                                <button class="mainMenu__name submenuOpen"><span class="mainMenu__name-text">Среднее  образование</span> <span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-thin-bottom"></use></svg></span></button>
+                                <ul id="sub1" class="mainMenu__submenu open">
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Лицей им.&nbsp;Лобачевского</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">IT&nbsp;Лицей интернат&nbsp;КФУ</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Инженерно экономический колледж</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Колледж Елабужского института&nbsp;КФУ</a></li>
+                                    <li class="mainMenu__submenu-item selected"><a class="mainMenu__submenu-link" href="#">&laquo;Университетская школа&raquo; Елабужского института КФУ</a></li>
+                                </ul>
+                            </li>
+                            <li class="mainMenu__item" data-item="sub2">
+                                <button class="mainMenu__name submenuOpen"><span class="mainMenu__name-text">Бакалавриат / специалитет</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-thin-bottom"></use></svg></span></button>
+                                <ul id="sub2" class="mainMenu__submenu">
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Образовательные программы</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Информация о приеме</a></li>
+                                    <li class="mainMenu__submenu-item selected"><a class="mainMenu__submenu-link" href="#">Процедура поступления</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Вступительные испытания</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Ход приема</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием по особым условиям</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием иностранных граждан</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                            <li class="mainMenu__item" data-item="sub3">
+                                <button class="mainMenu__name submenuOpen"><span class="mainMenu__name-text">Магистратура</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-thin-bottom"></use></svg></span></button>
+                                <ul id="sub3" class="mainMenu__submenu">
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Образовательные программы</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Информация о приеме</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Процедура поступления</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Вступительные испытания</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Ход приема</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием по особым условиям</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием иностранных граждан</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                            <li class="mainMenu__item" data-item="sub4">
+                                <button class="mainMenu__name submenuOpen"><span class="mainMenu__name-text">Ординатура</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-thin-bottom"></use></svg></span></button>
+                                <ul id="sub4" class="mainMenu__submenu">
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Образовательные программы</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Информация о приеме</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Вступительные испытания</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Ход приема</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Целевое обучение</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Платные образовательные услуги</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием иностранных граждан</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                            <li class="mainMenu__item" data-item="sub5">
+                                <button class="mainMenu__name submenuOpen"><span class="mainMenu__name-text">Аспирантура</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-thin-bottom"></use></svg></span></button>
+                                <ul id="sub5" class="mainMenu__submenu">
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Образовательные программы</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Информация о приеме</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Вступительные испытания</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Ход приема</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Целевое обучение</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Платные образовательные услуги</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Прием иностранных граждан</a></li>
+                                    <li class="mainMenu__submenu-item"><a class="mainMenu__submenu-link" href="#">Обратная связь</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="gridMenu__item linksImportant-box">
+                <div class="gridMenu__content">
+                    <div class="linksImportant" aria-label="Быстрые ссылки">
+                        <a href="#" class="linksImportant__item button btn-light-inverse">Подать документы</a>
+                        <!-- <a href="#" class="linksImportant__item button btn-light-inverse">Калькулятор ЕГЭ</a>
+                        <a href="#" class="linksImportant__item button btn-light-inverse">Олимпиады</a> -->
+                        <a href="#" class="linksImportant__item button btn-light-inverse">Школьнику</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gridMenu__item extraMenu-box">
+                <div class="gridMenu__content">
+                    <ul class="extraMenu">
+                        <li class="extraMenu__item"><a href="#">Новости</a></li>
+                        <li class="extraMenu__item"><a href="#">Календарь событий</a></li>
+                        <!-- selected активный пунтк меню -->
+                        <li class="extraMenu__item selected"><a href="#">Документы</a></li>
+                        <li class="extraMenu__item"><a href="#">Стипендии</a></li>
+                        <li class="extraMenu__item"><a href="#">Проживание</a></li>
+                        <li class="extraMenu__item"><a href="#">Учебная инфраструктура</a></li>
+                        <li class="extraMenu__item"><a href="#">Для иностранных граждан</a></li>
+                        <li class="extraMenu__item"><a href="#">Приемная комиссия</a></li>
+                        <li class="extraMenu__item"><a href="#">Архив. Итоги приема</a></li>
+                        <li class="extraMenu__item"><a href="#">Медосмотр</a></li>
+                        <li class="extraMenu__item"><a href="#">Творчество</a></li>
+                        <li class="extraMenu__item"><a href="#">Спорт</a></li>
+                        <li class="extraMenu__item"><a href="#">Об университете</a></li>
+                        <li class="extraMenu__item"><a href="#">О Казани</a></li>
+                        <li class="extraMenu__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="gridMenu__item feedback-box">
+                <div class="gridMenu__content">
+                    <div class="feedback">
+                        <a href="#" class="button btn-light-inverse btn-wide100" id="send"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#faq"></use></svg></span>Задать вопрос</a>
+                        <p>или через</p>
+                        <div class="socio">
+                            <a href="https://vk.com/priemkpfu" class="socio__item" title="Группа вконтакте для абитуриентов" aria-label="Группа вконтакте для абитуриентов" target="_blank"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#soc-vk-outline"></use></svg></span></a>
+                            <a href="http://t.me/priemkpfu" class="socio__item" title="Телеграм-канал для абитуриентов" aria-label="Телеграм-канал для абитуриентов" target="_blank"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#soc-tg-outline"></use></svg></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- енд меню -->
+    <nav class="fastMenu-box">
+        <div class="container">
+            <ul class="fastMenu">
+                <!-- ссылки ведут на список образ.програм в каждом разделе -->
+                <li class="fastMenu__item"><a class="fastMenu__link" href="#">Среднее  образование</a></li>
+                <!-- selected активный пункт меню -->
+                <li class="fastMenu__item selected"><a class="fastMenu__link" href="#">Бакалавриат/ специалитет</a></li>
+                <li class="fastMenu__item"><a class="fastMenu__link" href="#">Магистратура</a></li>
+                <li class="fastMenu__item"><a class="fastMenu__link" href="#">Ординатура</a></li>
+                <li class="fastMenu__item"><a class="fastMenu__link" href="#">Аспирантура</a></li>
+            </ul>
+            <div class="fastTools">
+                <div class="fastTools__item loginBtn">
+                    <a id="signin2" class="button btn-light-inverse btn-low" data-src="#login" href="#" data-fancybox="dialog"><span class="icok"><svg><use xlink:href="images/sprite-icons.svg#user"></use></svg></span>Личный кабинет</a>
+                </div>
+                <div class="fastTools__item">
+                    <div class="box-langSwitcher">
+                        <button class="lang-switcher" aria-label="Переключить язык сайта" aria-haspopup="true" aria-expanded="false"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#ru"></use></svg></span><span>РУС</span><span class="dropdown-caret"></span></button>
+                        <div class="listLang" hidden>
+                            <ul>
+                                <li class="listLang__item"><a class="listLang__link" href="#eng" target="_blank" title="English" lang="en"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#gb"></use></svg></span>ENG</a></li>
+                                <li class="listLang__item"><a class="listLang__link" href="#tat" target="_blank" title="Татар" lang="tt" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#tat"></use></svg></span>TAT</a></li>
+                                <li class="listLang__item"><a class="listLang__link" href="#es" target="_blank" title="Spanish" lang="es" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#es"></use></svg></span>ESP</a></li>
+                                <li class="listLang__item"><a class="listLang__link" href="#cn" target="_blank" title="China" lang="cn" tabIndex="-1"><span class="icok"><svg alt=""><use xlink:href="images/flags.svg#cn"></use></svg></span>CHN</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- <a class="fastTools__item searchLink" href="/search/" aria-label="Поиск"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#search"></use></svg></span></a> -->
+            </div>
+        </div>
+    </nav>
+
+    <section class="cover" style="background-image: url(pictures/cover/bachelor.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="cover__heading col-12 col-sm-7 col-md-6 ">
+                    <h1>Бакалавриат/ специалитет</h1>
+                    <div class="cover__caption"><p>Бакалавриат&nbsp;&mdash; ступень образования, дающая возможность студенту вуза получить ученую степень первой ступени высшего образования</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Навигация 2 уровня -->
+    <nav class="menuLevel2-box dropDownMenu" aria-label="Меню 2 уровня">
+        <button class="menuLevel2-show dropDownMenu__showbtn" aria-label="Открыть меню. Активная страница">Платные образовательные услуги <span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button>
+        <div class="container menuLevel2-offset dropDownMenu__container">
+            <ul class="menuLevel2">
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Образовательные программы</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Информация о приеме</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Вступительные испытания</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Ход приема</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Целевое обучение</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item selected"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Платные образовательные услуги</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Прием иностранных граждан</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+                <li class="menuLevel2__item"><a class="menuLevel2__link" href="#"><span class="menuLevel2__text">Обратная связь</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ЕНД Навигация 2 уровня -->
+    <main class="">
+        <div class="container">
+            <div class="breadcrumbs" aria-label="Строка  пути">
+                <a href="#" class="breadcrumbs__item">Главная</a><span class="breadcrumbs__separate icok"><svg><use xlink:href="images/sprite-icons.svg#arr-thin-right"></use></svg></span><a href="#" class="breadcrumbs__item">Бакалавриат/ специалитет</a><span class="breadcrumbs__separate icok"><svg><use xlink:href="images/sprite-icons.svg#arr-thin-right"></use></svg></span><a href="#" class="breadcrumbs__item">Платные образовательные услуги</a><!-- <span class="breadcrumbs__separate icok"><svg><use xlink:href="images/sprite-icons.svg#arr-thin-right"></use></svg></span><span class="breadcrumbs__item selected" aria-current="page">Приказы Минобрнауки России «Об утверждении Перечня олимпиад школьников»</span> -->
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <form action="" class="searchEdu">
+                    <legend class="searchEdu__title">Поиск по&nbsp;программам бакалавриата/специалитета</legend>
+                    <div class="input-group">
+                        <div class="searchEdu__input box-defaultInput">
+                            <input type="text" class="default-input">
+                            <span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#search"></use></svg></span>
+                        </div>
+                        <button class="button btn-light btn-onlyIco" type="submit" aria-label="Найти" title="Найти"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span></button>
+                    </div>
+                </form>
+
+                <div class="row block--subsection">
+                    <div class="offset-filterProgramms col-12 col-sm-4 col-lg-3">
+                        <form action="" class="filterProgramms">
+                            <!-- 1 -->
+                            <fieldset class="filterProgramms__block dropDown">
+                                <!-- Для мобилы Когда в фильтре выбраны параметры текст кнопки подписи заменить на список параметров -->
+                                <legend><button class="filterProgramms__btnTitle dropDown__showbtn" aria-label="Фильтр по городам" aria-haspopup="true" aria-expanded="false" type="button"><span>Город: Казань, Елабуга</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button><span class="filterProgramms__textTitle">Город</span></legend>
+                                <div class="filterProgramms__list dropDown__container" hidden>
+                                    <div class="input-group">
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" checked name="city" id="kazan">
+                                            <span class="default-label">Казань</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" checked name="city" id="elabuga">
+                                            <span class="default-label">Елабуга</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="city" id="chelny">
+                                            <span class="default-label">Набережные Челны</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <!-- 2 -->
+                            <fieldset class="filterProgramms__block dropDown">
+                                <legend><button class="filterProgramms__btnTitle dropDown__showbtn" aria-label="Фильтр по направлениям" aria-haspopup="true" aria-expanded="false" type="button"><span>Направление</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button><span class="filterProgramms__textTitle">Направление</span></legend>
+                                <div class="filterProgramms__list dropDown__container" hidden>
+                                    <div class="input-group">
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="direction" id="i1">
+                                            <span class="default-label">1 Направление</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="direction" id="i2">
+                                            <span class="default-label">2 Направление</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="direction" id="i3">
+                                            <span class="default-label">3 Направление consectetur adipisicing elit</span>
+                                        </label>
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="direction" id="i4">
+                                            <span class="default-label">1 Направление</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="direction" id="i5">
+                                            <span class="default-label">2 Направление</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="direction" id="i6">
+                                            <span class="default-label">3 Направление consectetur adipisicing elit</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="direction" id="i7">
+                                            <span class="default-label">2 Направление</span>
+                                        </label>
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="direction" id="i8">
+                                            <span class="default-label">1 Направление</span>
+                                        </label>
+
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                            <!-- 3 -->
+                            <fieldset class="filterProgramms__block dropDown">
+                                <legend><button class="filterProgramms__btnTitle dropDown__showbtn" aria-label="Фильтр по экзаменам" aria-haspopup="true" aria-expanded="false" type="button"><span>Экзамены</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button><span class="filterProgramms__textTitle">Экзамены</span></legend>
+                                <div class="filterProgramms__list dropDown__container" hidden>
+                                    <div class="input-group">
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="exam" id="e1">
+                                            <span class="default-label">1 Экзамены</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="exam" id="e2">
+                                            <span class="default-label">2 Экзамены</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="exam" id="e3">
+                                            <span class="default-label">3 Экзамены consectetur adipisicing elit</span>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                            <!-- 4 -->
+                            <fieldset class="filterProgramms__block dropDown">
+                                <legend><button class="filterProgramms__btnTitle dropDown__showbtn" aria-label="Фильтр по экзаменам" aria-haspopup="true" aria-expanded="false" type="button"><span>Форма обучения</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button><span class="filterProgramms__textTitle">Форма обучения</span></legend>
+                                <div class="filterProgramms__list dropDown__container" hidden>
+                                    <div class="input-group">
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="forma" id="f1">
+                                            <span class="default-label">Очная</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="forma" id="f2">
+                                            <span class="default-label">Заочная</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="forma" id="f3">
+                                            <span class="default-label">Очно-заочная</span>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+                            <!-- 5 -->
+                            <fieldset class="filterProgramms__block dropDown">
+                                <legend><button class="filterProgramms__btnTitle dropDown__showbtn" aria-label="Фильтр по экзаменам" aria-haspopup="true" aria-expanded="false" type="button"><span>Язык обучения</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-bottom"></use></svg></span></button><span class="filterProgramms__textTitle">Язык обучения</span></legend>
+                                <div class="filterProgramms__list dropDown__container" hidden>
+                                    <div class="input-group">
+                                        <label class="label_checkbox focusFirst">
+                                            <input type="checkbox" name="lang" id="l1">
+                                            <span class="default-label">Русский</span>
+                                        </label>
+                                        <label class="label_checkbox">
+                                            <input type="checkbox" name="lang" id="l2">
+                                            <span class="default-label">Английский</span>
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </fieldset>
+
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-8 offset-lg-1">
+                        <div class="listProgramms">
+                            <a class='listProgramms__item block--white' href='/programms-detail'>
+                                <h3 class="listProgramms__title"><span class="listProgramms__name">28.03.01  Нанотехнологии и микросистемная техника</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span><span class="listProgramms__direction">Математика, Физика</span></h3>
+                                <ul class="listProgramms__descr">
+                                    <li class="listProgramms__period" aria-label="Срок обучения" title="Срок обучения">4 года</li>
+                                    <li class="listProgramms__form" aria-label="Форма обучения" title="Форма обучения">очная</li>
+                                    <li class="listProgramms__numberSeats" aria-label="Количество мест" title="Количество мест">
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">60</span><span class="listProgramms__numberText">бюджет</span></p>
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">3</span><span class="listProgramms__numberText">контракт</span></p>
+                                    </li>
+                                </ul>
+                            </a>
+                            <a class='listProgramms__item block--white' href='/programms-detail'>
+                                <h3 class="listProgramms__title"><span class="listProgramms__name">05.03.02 География</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span><span class="listProgramms__direction">Геология, География, Экология, природопользование</span></h3>
+                                <ul class="listProgramms__descr">
+                                    <li class="listProgramms__period" aria-label="Срок обучения" title="Срок обучения">5 лет</li>
+                                    <li class="listProgramms__form" aria-label="Форма обучения" title="Форма обучения">очно-заочная</li>
+                                    <li class="listProgramms__numberSeats" aria-label="Количество мест" title="Количество мест">
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">60</span><span class="listProgramms__numberText">бюджет</span></p>
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">3</span><span class="listProgramms__numberText">контракт</span></p>
+                                    </li>
+                                </ul>
+                            </a>
+                            <a class='listProgramms__item block--white' href='/programms-detail'>
+                                <h3 class="listProgramms__title"><span class="listProgramms__name">42.03.01 Реклама и связи с общественностью. Копирайтинг и бренд-коммуникации</span><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#arr-line-right"></use></svg></span><span class="listProgramms__direction" aria-label="Направление">Геология, География, Экология, природопользование</span></h3>
+                                <ul class="listProgramms__descr">
+                                    <li class="listProgramms__period" aria-label="Срок обучения" title="Срок обучения">4 года</li>
+                                    <li class="listProgramms__form" aria-label="Форма обучения" title="Форма обучения">очная</li>
+                                    <li class="listProgramms__numberSeats" aria-label="Количество мест" title="Количество мест">
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">60</span><span class="listProgramms__numberText">бюджет</span></p>
+                                        <p class="listProgramms__numberItem"><span class="listProgramms__number">3</span><span class="listProgramms__numberText">контракт</span></p>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- END content -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer__logos col-12 col-sm-3 col-lg-4">
+                    <a class="logo" href="http://kpfu.ru/" title="Казанский федеральный университет" target="_blank"><img src="images/kfu_logo_3l-white_rus.svg" alt="Казанский федеральный университет" width="104"></a>
+                </div>
+                <div class="footer__contacts col-12 col-sm-5 col-md-6 col-lg-5">
+                    <p>
+                        420008, г.&nbsp;Казань, ул.&nbsp;Кремлевская, д.&nbsp;35, каб.&nbsp;114,&nbsp;115<br>
+                        <a href="tel:88002349275">8-800-234-92-75</a> (РФ)<br>
+                        <a href="tel:+78432337027">+7 (843) 233-70-27</a> (для ин. граждан) <br>
+                        <a href="mailto:priem@kpfu.ru">priem@kpfu.ru</a><br>
+                        <!-- <a href="http://kpfu.ru/">kpfu.ru</a><br> -->
+                        График работы: с&nbsp;8:00 до&nbsp;17:00<br>
+                    </p>
+                </div>
+                <div class="footer__socio col-12 col-sm-4 col-md-3">
+                    <div class="socio">
+                        <a href="https://vk.com/priemkpfu" class="socio__item" title="Группа вконтакте для абитуриентов" aria-label="Группа вконтакте для абитуриентов" target="_blank"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#soc-vk-outline"></use></svg></span></a>
+                        <a href="http://t.me/priemkpfu" class="socio__item" title="Телеграм-канал для абитуриентов" aria-label="Телеграм-канал для абитуриентов" target="_blank"><span class="icok"><svg alt=""><use xlink:href="images/sprite-icons.svg#soc-tg-outline"></use></svg></span></a>
+                    </div>
+                </div>
+                <div class="footer__copyright col-12">
+                    <p>&copy;&nbsp;Казанский федеральный университет, 2023</p>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+    <!-- END Footer -->
+    <!-- Pop-up -->
+    <div id="login" class="box-popup" aria-labelledby="dialogheader">
+        <h2 id="dialogheader">Вход в личный кабинет</h2>
+        <form id="eu_enter" method="POST" action="#">
+            <div class="input-group">
+                <label class="default-label" for="loginEnter">Ваш логин</label>
+                <div class="box-defaultInput">
+                    <input id="loginEnter" name="p_login" type="text" class="default-input" placeholder="Введите логин" required="">
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="default-label" for="password">Ваш пароль</label>
+                <div class="box-defaultInput">
+                    <input id="password" name="p_pass" type="password" class="default-input" placeholder="Введите пароль" required="">
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Войти" class="button btn-default btn-wide100">
+            </div>
+            <p><a href="#offset-registration">Регистрация</a></p>
+            <p><a href="#">Забыли пароль?</a></p>
+
+        </form>
+    </div>
+    <!-- END Pop-up -->
+    <!-- Pop-up Написать нам  -->
+    <!-- <div id="writeus" class="box-popup" aria-labelledby="writeus-header">
+        <h2 id="writeus-header">Задать вопрос</h2>
+        <form id="form_writeus" method="POST" action="h">
+            <div class="input-group">
+                <label class="default-label" for="name_guest">Ваше имя</label>
+                <div class="box-defaultInput">
+                    <input name="name_guest" type="text" class="default-input" required="" id="name_guest" placeholder="Введите ваше имя">
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="default-label" for="email_guest">E-mail</label>
+                <div class="box-defaultInput">
+                    <input name="email_guest" type="email" class="default-input" required="" id="email_guest" placeholder="Введите ваш e-mail">
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="default-label" for="subject">Тема сообщения</label>
+                <div class="box-defaultInput">
+                    <input name="subject" type="text" class="default-input" required="" id="subject" placeholder="Введите тему сообщения">
+                </div>
+            </div>
+            <div class="input-group input-group--error">
+                <label class="default-label" for="message">Текст сообщения</label>
+                <div class="box-defaultInput">
+                    <textarea name="message" rows="6" class="default-input" required="" id="message" placeholder="Введите текст сообщения"></textarea>
+                </div>
+            </div>
+            <div class="input-group">
+                <label class="label_checkbox">
+                    <input type="checkbox" name="agreement" id="agreement_id" required="">
+                    <span class="default-label">Согласие на обработку персональных данных</span>
+                </label>
+            </div>
+            <div class="error-text">
+                <p>Вы не ввели e-mail и пароль</p>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Отправить" class="button btn-default btn-wide100">
+            </div>
+        </form>
+    </div> -->
+    <!-- END Pop-up -->
+    <div class="overlay"></div>
+
+    <script src="js/fancybox4/fancybox.umd.js"></script>
+    <script src="js/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    /* закрытие поп-апов с ифреймом */
+    function closeIframeMain() {
+        Fancybox.close(false); // false для закрытия только активного, иначе все открытые закрывает
+    }
+    </script>
+</body>
+</html>
+<script src="js/navinner.js"></script>
+<script src="js/filter.js"></script>
+<script>
+</script>
